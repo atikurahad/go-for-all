@@ -22,6 +22,11 @@ if isPositive (num){
 	fmt.Println(num, "is negative number")
 }
 
+// for loop with range
+numbers := []int {1,2,3,4,5}
+for i , num := range numbers {
+	fmt.Println("Index %d , number : %d\n ", i , num)
+}
 
 }
 
